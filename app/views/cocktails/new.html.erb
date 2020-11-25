@@ -1,7 +1,8 @@
+<div class="forms">
 <h1>Let's Create!</h1>
 <%= simple_form_for  @cocktail do |f| %>
-  <%= f.input :name %>
-  <%= f.submit "Add your go-to!", class: "btn btn-primary" %>
+ <p><%= f.input :name %></p>
+ <p><%= f.submit "Add your go-to!", class: "btn btn-primary" %></p>
 <% end %>
-
-<%= link_to 'Back to cocktails', cocktails_path %>
+<p><%= link_to 'Back to cocktails', cocktails_path %></p>
+</div>
